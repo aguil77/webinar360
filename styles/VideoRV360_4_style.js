@@ -21,7 +21,7 @@ var style_VideoRV360_4 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(239,6,190,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 3.6479999999999997}),
+        stroke: new ol.style.Stroke({color: 'rgba(243,227,65,1.0)', lineDash: [22.192,11.096,5.548,11.096,5.548,11.096], lineCap: 'square', lineJoin: 'bevel', width: 5.548}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
